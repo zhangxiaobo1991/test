@@ -1,0 +1,12 @@
+@charset 'utf-8';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.blocktitle{
+  font-weight: 400;
+  color: #1f2f3d;
+}
