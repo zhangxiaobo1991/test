@@ -21,6 +21,32 @@ export default new Router({
           component: r => require(['./../pages/basic/chazhi.vue'], r)
         }
       ]
+    },
+    {
+      path: '/demo',
+      component: r => require(['./../pages/demos/demos.vue'], r),
+      children: [
+        {
+          path: 'tree',
+          component: r => require(['./../pages/demos/tree.vue'], r)
+        },
+        {
+          path: 'transition',
+          component: r => require(['./../pages/demos/transition.vue'], r)
+        },
+        {
+          path: 'transition2',
+          component: r => require(['./../pages/demos/transition2.vue'], r)
+        },
+        {
+          path: 'mixin',
+          component: r => require(['./../pages/demos/mixin.vue'], r)
+        },
+        {
+          path: 'compos',
+          component: r => require(['./../pages/demos/testCompos.vue'], r)
+        }
+      ]
     }
   ]
 })

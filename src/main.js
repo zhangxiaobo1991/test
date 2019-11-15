@@ -14,6 +14,7 @@ import 'highlight.js/styles/monokai-sublime.css'
 Vue.use(ElementUI)
 
 Vue.config.productionTip = false
+// Vue.config.devtools = false
 
 /* eslint-disable no-new */
 new Vue({
